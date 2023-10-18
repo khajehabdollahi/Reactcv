@@ -1,22 +1,21 @@
-import logo from './logo.svg';
+import Hassan from './components/images/Hassan.jpg';
 import './App.css';
+import Education from './components/Education';
+import WorkExperiences from './components/WorkExperiences';
+import Info from './components/Info';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header >
+        <h1>Mohammad Hassan Khajeh Abdollahi</h1>
+        <img src={Hassan} width={350} alt="logo" />
+        <Education />
+        <WorkExperiences />
+        <Info/>
+        
       </header>
     </div>
   );
