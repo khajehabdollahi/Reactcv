@@ -1,8 +1,6 @@
 import React from 'react'
 
-export default function 
-
-() {
+export default function WorkExperiences () {
   return (
     <div style={{ background:"rgb(160, 250, 150)", margin: 150, padding: 40 }}>
       <h2>Arbetserfarenhet:</h2>
